@@ -156,12 +156,6 @@ div.h1-header h1 {
   font-weight: 900;
 }
 
-@media (min-width: 768px) {
-  div.h1-header h1 {
-    font-size: 35px;
-  }
-}
-
 img {
   width: 100%;
   height: auto;
@@ -256,5 +250,23 @@ div.icon-images {
   width: 25%;
   height: 100px;
   margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  div.h1-header h1 {
+    font-size: 35px;
+  }
+  div.uppercase.white h1 {
+    text-align: left;
+  }
+  div.pink-line.centered div {
+    margin: 50px 0 25px 0;
+  }
+  div.to-buy-btn.centered {
+    text-align: right;
+  }
+  div.current-price p {
+    text-align: right;
+  }
 }
 /*# sourceMappingURL=main.css.map */
