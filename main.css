@@ -138,17 +138,34 @@ table {
   background-size: cover;
 }
 
+.pink {
+  color: #ff00ae;
+}
+
+.white {
+  color: #fff;
+}
+
+div.h1-header {
+  margin-top: 50px;
+}
+
 div.h1-header h1 {
   font-family: "Montserrat", sans-serif;
-  color: #fff;
-  font-size: 35px;
+  font-size: 20px;
   font-weight: 900;
 }
 
-@media (max-width: 767px) {
+@media (min-width: 768px) {
   div.h1-header h1 {
-    font-size: 20px;
+    font-size: 35px;
   }
+}
+
+img {
+  width: 100%;
+  height: auto;
+  padding: 15px 0;
 }
 
 div.uppercase h1 {
@@ -164,7 +181,7 @@ div.lowercase h1 {
 }
 
 div.pink-line div {
-  margin: 15px auto;
+  margin: 50px auto 25px auto;
   width: 40%;
   height: 2px;
   display: block;
@@ -173,7 +190,6 @@ div.pink-line div {
 }
 
 div.description p {
-  color: #fff;
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
   font-weight: 400;
@@ -234,5 +250,11 @@ div.to-buy-btn button:hover {
   background: transparent;
   border: 2px solid #ff00ae;
   color: #ff00ae;
+}
+
+div.icon-images {
+  width: 25%;
+  height: 100px;
+  margin: 0 auto;
 }
 /*# sourceMappingURL=main.css.map */

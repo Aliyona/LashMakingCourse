@@ -11,40 +11,35 @@ $white: #fff;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-div.h1-header {
-    h1 {
-    font-family: $main-font;
+.pink {
+    color: $primary;
+}
+.white {
     color: $white;
-    font-size: 35px;
+}
+div.h1-header {
+    margin-top: 50px;
+    h1 {
+    font-family: $main-font;    
+    font-size: 20px;
     font-weight: 900; 
     }    
 }
 
-@media(max-width:767px) {
+@media(min-width:768px) {
     div.h1-header {
         h1 {
-            font-size: 20px;
+            font-size: 35px;
         }        
     }
 }
 
-// @media(max-width:1025px) {
-//     div.beauty-pack-img {
-//         img {
-//             width: 100%;
-//             height: auto;
-//             padding: 15px 0;
-//         };
-//     };
-//     .beauty-pack-images {
-//          img {
-//              width: 100%;
-//              height: auto;
-//              padding: 15px;
-//          }
-//     }
-// };
+ img {
+     width: 100%;
+     height: auto;
+     padding: 15px 0;
+ };
+ 
 
 div.uppercase {
     h1 {
@@ -63,7 +58,7 @@ div.lowercase {
 
 div.pink-line {
     div {
-        margin: 15px auto;
+        margin: 50px auto 25px auto;
         width: 40%;
         height: 2px;
         display: block;
@@ -73,8 +68,7 @@ div.pink-line {
 }
 
 div.description {
-    p {
-        color: $white;
+    p {        
         font-family: $main-font;
         font-size: 20px;
         font-weight: 400;
@@ -87,6 +81,7 @@ div.description {
 div.centered {
     text-align: center;
     padding: 0 15px;
+
 }
 
 div.old-price { 
@@ -140,4 +135,9 @@ div.to-buy-btn {
             color: $primary;
         }
     }
+}
+div.icon-images {
+    width: 25%;
+    height: 100px;
+    margin: 0 auto;
 }
